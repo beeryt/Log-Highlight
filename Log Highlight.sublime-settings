@@ -13,7 +13,7 @@
 	"log_ext": [ ".log" ], // use ".*" for all file extensions - but can not use `Auto Highlight`
 
 	// "compile" - link, summary, bookmark are usable, "system" - only for highlight
-	"log_type": "compile",
+	"log_type": "system",
 
 	/*  Options for `compile` type log  ___________________________
 	*/
@@ -83,7 +83,7 @@
 
 		// info ___________________________________________________
 		"info" : {
-			"enable"  : false,
+			"enable"  : true,
 			"summary" : false,
 			"pattern" : [
 				// [ "begin regex", "end regex" ] or [ "match regex", "" ]
@@ -92,9 +92,9 @@
 				// <-- Remove, Change, Add More Patterns Here -->
 			],
 			"color" : {
-				"base"  : "#70991f", // info message
+				"base"  : "#428a99", // info message
 				"link"  : "#b36915", // link in info message
-				"quote" : "#428a99"  // quote in info message
+				"quote" : "#70991f"  // quote in info message
 			},
 			"icon"  : "Danish Royalty/info.png"    // remove "icon" not to use icon, "dot", "circle" "bookmark" are possible
 		}
